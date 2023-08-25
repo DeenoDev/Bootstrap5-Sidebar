@@ -13,5 +13,15 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center bottom;
-    
+
+  }
+
+  a{
+    cursor: pointer;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  li{
+    list-style: none;
   }
