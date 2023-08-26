@@ -22,6 +22,54 @@
     font-family: 'Poppins', sans-serif;
   }
 
-  li{
+  li a{
     list-style: none;
+    text-decoration: none;
+  }
+
+  /* Layout Skeleton*/
+  .wrapper{
+    align-items: stretch;
+    display: flex;
+    width: 100%;
+
+  }
+   
+  #sidebar{
+    max-width: 254px;
+    min-width: 264px;
+    transition: all 0.35s ease-in-out;
+  }
+
+  main{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    transition: all 0.35 ease-in-out;
+  }
+
+  .sidebar-logo{
+    padding: 1.15rem 1.5rem;
+
+  }
+
+  .sidebar-logo a{
+    color: #e9ecef;
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-decoration: none;
+
+  }
+
+  .sidebar-nav{
+    padding: 0;
+  }
+
+  .sidebar-header{
+    color: #e9ecef;
+    font-size: .75rem;
+    padding: 1.5rem, 1.5rem .375rem;
+
   }
