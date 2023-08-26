@@ -27,9 +27,9 @@
     font-family: 'Poppins', sans-serif;
   }
 
-  li a{
+  li {
     list-style: none;
-    text-decoration: none;
+    
   }
 
   /* Layout Skeleton*/
@@ -70,8 +70,6 @@
     color: #e9ecef;
     font-size: 1.25rem;
     font-weight: 600;
-    text-decoration: none;
-
   }
 
   .sidebar-nav{
