@@ -81,7 +81,10 @@
 
   }
 
-  a.sidebar-link{
+  a.sidebar-link {
     padding: .625rem 1.625rem;
-    color:#e9ecef;
-  }
+    color: #e9ecef;
+    position: relative;
+    display: block;
+    font-size: 1rem;
+}
